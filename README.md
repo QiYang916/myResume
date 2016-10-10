@@ -1,1 +1,1 @@
-# myResume
+# 使用texpad进行编辑编译。
