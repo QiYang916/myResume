@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+\usepackage{xunicode, xltxtra}
+\XeTeXlinebreaklocale "zh"
+\widowpenalty=10000
+
+%\setmainfont[Mapping=tex-text]{文泉驿正黑}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
+  
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+\setmainfont[Mapping=tex-text]{Hiragino Sans GB}
+\setsansfont[Mapping=tex-text]{Hiragino Sans GB}
+\CJKtilde
+
+% personal data
+\firstname{杨奇}
+\familyname{}
+\title{}               % optional, remove the line if not wanted
+\mobile{13738076490}                    % optional, remove the line if not wanted
+\email{yangqi916@gmail.com}                      % optional, remove the line if not wanted
+%% \quote{\small{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{教育}
+\cventry{2015 - 至今}{硕士}{浙江大学计算机学院}{将于2018年毕业}{}{}
+\cventry{2011 - 2015}{本科}{武汉理工大学计算机学院}{}{}{}  
+
+\section{基本信息}
+\cventry{性别}{男}{1992}{}{}{}
+
+\section{项目经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\vspace*{0.2\baselineskip}
+\cventry{2016}
+{知乎日报 仿写 iOS 应用}
+{}
+{}{}
+{知乎日报的第三方iOS客户端，没有第三方库依赖，使用 Objective-C 语言实现。图片轮播, 沉浸式状态栏等基本上都完成了}
+
+\cventry{2015}
+{网络地址跳变系统}
+{SDN, opebdaylight，mininet}
+{}{}
+{实验室与中兴合作项目，在软件定义网络的环境下，控制器使用opendaylight，网络拓扑使用mininet搭建，opendaylight开发了一个进行地址跳变的模块。本人负责具体实现。在网络拓扑端，研究了mininet源码，使用python编写了网络拓扑搭建脚本等一系列脚本。在控制器端，研究了opendaylight内部各模块的通信机制，根据设计要求使用java编写了相应的地址跳变模块。为opendaylight增加了跳变功能。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2016}
+{ONOS的相关测试}
+{SDN,ONOS,Python}
+{研究项目}{}
+{设计完成ONOS分布式集群控制器测试方案，测试其的流表安装时延，流表最大安装数量等。本项目至今仍在进行之中。本人负责ONOS的使用与研究，Teston测试框架的使用与研究。}
+
+
+
+\renewcommand{\baselinestretch}{1.0}
+
+
+\section{技能}
+\cventry{语言}{C熟练，熟悉OC，c++主要用来刷题，python能读}{}{}{}{}
+\cventry{计算机基础}{熟练掌握数据结构和算法，计算机组成原理，操作系统，计算机网络}{}{}{}{}
+\cventry{业务能力}{熟悉网络编程。熟练界面搭建，接口调试。熟练debug和重构，致力于生产优雅代码}{}{}{}{}
+\cventry{英语}{CET-6 525分，能够熟练阅读各种英文技术文档}{}{}{}{}
+\cventry{其它}{有git及Linux使用基础}{}{}{}{}
+
+\section{iOS学习经历}
+\cventry{}{iOS的开发(自学)学习了4个月左右，学习过程主要先是看iOS，OC相关的书和资料，接着按 Raywendelich教程边做DEMO边翻官方文档。目前对iOS的各个方面都有基本的认识。知道自己的iOS相关开发经验还不是很多，但迫切希望能够得到一个锻炼学习的机会。}{}{}{}{}
+
+
+
+
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}
