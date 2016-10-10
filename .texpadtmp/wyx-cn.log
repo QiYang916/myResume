@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.29)  10 OCT 2016 20:20
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.29)  10 OCT 2016 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,7 +912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]\EU1/HiraginoSansGB(0)/bx/n/10.95 熟悉网络编程。熟练界面搭建，接口调试。熟练debug和重构，致力于生产优雅
+[]\EU1/HiraginoSansGB(0)/bx/n/10.95 熟悉网络编程，多线程编程。熟练界面搭建，接口调试。熟练debug和重构，致
  []
 
 
